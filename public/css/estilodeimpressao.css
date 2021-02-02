@@ -1,0 +1,28 @@
+@media print {
+    footer {
+        page-break-after: always;
+    }
+}
+
+@media print {
+    h1 {
+        page-break-before: always;
+    }
+}
+
+@media print {
+    @page {
+        -ms--filter: none !important;
+        margin: 00;
+        padding: 00;
+        line--height: 1.4em;
+        margin: 0.5cm;
+    }
+}
+
+@media print {
+    pre,
+    blockquote {
+        page-break-inside: avoid;
+    }
+}
